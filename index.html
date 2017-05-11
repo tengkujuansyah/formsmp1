@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SMPN 1 Cibadak</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img.png">
+<script type="text/javascript">
+function adjust_textarea(h) {
+    h.style.height = "20px";
+    h.style.height = (h.scrollHeight)+"px";
+}
+</script>
+
+</head>
+<body>
+<section id="top">
+	<img src="asd.png">
+	<h2>Form Pendaftaran</h2>
+</section>
+	<div class="clear"></div>
+
+<section>
+	<div class="wrap">
+	<div class="wrapper">
+		<div class="motto">
+			<h1>MOTTO</h1>
+
+			<p>SMP N 1 Cibadak (Cerdas Beretika) Ceria, Empati, Rasional, Damai, Aktif, Sabar, Bersih, Elok, Tulus, Iman, Konsisten, Amanah.</p>
+		</div>
+		<div class="button">
+			<input type="button" value="<< Back to Homepage" />
+		</div>
+	</div>
+	</div>
+</section>
+
+<section>
+	<div class="wrapform">
+		<div class="wrapper">
+			<div class="form-style-8">
+  <h2>formulir pendaftaran</h2>
+  <form>
+    <input type="text" name="field1" placeholder="Nama Lengkap" />
+    <input type="email" name="field2" placeholder="NIS" />
+    <input type="url" name="field3" placeholder="NISN" />
+    <input type="text" name="field1" placeholder="Asal Sekolah" />
+     <input type="text" name="field1" placeholder="Alamat" />
+     <input type="text" name="field1" placeholder="Agama" />
+     <input type="text" name="field1" placeholder="Nama Ayah" />
+     <input type="text" name="field1" placeholder="Nama Ibu" />
+     <input type="text" name="field1" placeholder="Alamat Orang Tua" />
+    <textarea placeholder="Pesan Tambahan" onkeyup="adjust_textarea(this)"></textarea>
+    <input type="button" value="Send Form" />
+  </form>
+</div>
+		</div>
+	</div>
+</section>
+<div class="clear"></div>
+<div class="garis"></div>
+<div class="clear"></div>
+<section>
+	<div class="wrapcon">
+		<div class="wrapper">
+			<div class="contact">
+			<h2>Contact</h2>
+				<p>
+					
+						Jl. Siliwangi No 123, Cibadak, Cibadak, Sukabumi, Jawa Barat 43351, Indonesia, (0266)531333
+
+				</p>
+				<p>
+					Email : 
+					<br>
+					info@smpn1cibadak.sch.id
+					<br>
+					smpn1cbd_kabsi@yahoo.co.id
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="wrapmap">
+		<div class="wrapper">
+		<h2>Map</h2>
+			<div id="map"></div>
+		<script>
+      function initMap() {
+        var uluru = {lat:-6.894127, lng: 106.792504};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBw9VMNwg86nKNvkjRunMmVoVZr1IHHvrc&callback=initMap">
+    </script>
+		</div>
+
+	</div>
+</section>
+<div class="clear"></div>
+<footer>
+	<p><a href="https://www.facebook.com/T.Juan.9921">By Tengku Juan | X E 1</a></p>
+</footer>
+</body>
+</html>
